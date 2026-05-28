@@ -1,0 +1,55 @@
+# Data files
+
+PROJECT/1_data/**/bronze_raw/*
+PROJECT/1_data/**/silver_processed/*
+PROJECT/1_data/**/gold_derived/*
+
+# Keep folder structure
+
+!PROJECT/1_data/**/.gitkeep
+!PROJECT/1_data/**/README.md
+
+# Large geospatial files
+
+*.tif
+*.tiff
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.aux.xml
+
+# QGIS temporary files
+
+*.qgz~
+*.qgs~
+.qgis/
+
+# Outputs
+
+PROJECT/4_outputs/*
+!PROJECT/4_outputs/.gitkeep
+!PROJECT/4_outputs/README.md
+
+# Notebooks checkpoints
+
+.ipynb_checkpoints/
+
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+
+# OS files
+
+.DS_Store
+Thumbs.db
