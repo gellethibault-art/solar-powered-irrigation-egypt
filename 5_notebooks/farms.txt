@@ -1,0 +1,44 @@
+Farm Size Distribution — Egypt
+
+## Using Su et al. (2022) gridded farm-size-specific dataset and Egyptian agricultural census data:
+
+Dataset: Su et al. (2022) — ESSD, Zenodo DOI: 10.5281/zenodo.6976249
+
+What the dataset contains:
+
+Global raster at 5 arcmin resolution (~9.2 km per cell)
+11 farm size classes (0–1, 1–2, 2–5, 5–10, 10–20, 20–50, 50–100, 100–200, 200–500, 500–1000, >1000 ha)
+27 crops (GAEZv4 version) or 42 crops (SPAM2010 version)
+2 or 4 farming systems (irrigated / rainfed)
+Based on Ricciardi et al. (2018) agricultural census compilation for 56 countries
+For Egypt specifically:
+
+Egypt is NOT in the 56 countries — absent from Ricciardi et al. (2018) due to lack of publicly available standardised agricultural census data
+Dataset cannot be used directly for Egypt
+Alternative sources explored:
+
+## FAO Microdata — Agricultural Census 2009-2010 (MALR)
+
+Full census by complete enumeration — holdings characteristics, cultivated area, irrigation source, farm machinery
+Individual-level microdata not publicly available — requires direct contact with MALR
+Contact: economic.affairs@yahoo.com
+Email sent requesting published aggregate tables by farm size class and governorate — awaiting response
+
+##CAPMAS — Agricultural Property Bulletins 2015 & 2017
+
+Published bulletins available on censusinfo.capmas.gov.eg
+PDF format — aggregate tables potentially containing farm size distribution by governorate
+To be explored further --> nothing found
+
+##FAOSTAT — World Census of Agriculture Structural Data (updated April 2025)
+
+Now covers 135 additional countries for WCA rounds 1990, 2000, 2010
+Egypt conducted WCA 2010 census — may now be included
+To verify at: fao.org/faostat → domain "Structural data from agricultural censuses"
+Key limitation: No spatially explicit, gridded, farm-size-specific dataset exists for Egypt — any spatial layer will need to be constructed by downscaling governorate-level tabular data onto a raster grid, following the same logic as Su et al.
+--> Downloaded number of holdings per size nationally. 
+
+## Document World Bank 2018
+
+La segmentation des fermes — confirme small/medium/large avec les seuils en Feddans
+Les barrières au financement des smallholders — alimente directement ta question sur l'aide financière nécessaire

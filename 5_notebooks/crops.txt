@@ -1,0 +1,22 @@
+using Cropgrids, we can download crop data for Egypt:
+
+Dataset: CROPGRIDS v1.08 (Maggi, Tang, Nguyen — 2024)
+
+What the file contains:
+
+Global raster at 0.05° resolution (~5.6 km per cell)
+3,600 × 7,200 grid cells covering the whole world
+Variables: harvarea (harvested area in ha), croparea (physical crop area in ha), qual (quality score 0-1), set (source dataset code)
+For Egypt specifically (country code = 57):
+
+Total wheat harvested area: ~487,052 ha across 2,200 grid cells
+harvarea and croparea are identical for wheat in Egypt — meaning no double-cropping detected
+Values range from 0 to 1,580 ha per cell
+Quality score: 0.791 uniformly across all Egypt cells — moderate-good quality
+Source dataset: SPAM2005 (code 3) — meaning the spatial distribution comes from the Spatial Production Allocation Model 2005. This is a modelled distribution, not directly observed from satellite. It is 20 years old which is a limitation worth flagging.
+-1 values = 0 cells — meaning no nodata issues, clean dataset
+Key limitation: SPAM2005 is from 2005 — Egypt's agricultural landscape has changed significantly since then, particularly with new land reclamation projects in the Western Desert.
+
+Ouputs:
+84 crops cultivated, top 10 maps downloaded.
+See the notes in the doc "for next time"

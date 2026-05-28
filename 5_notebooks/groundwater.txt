@@ -1,0 +1,17 @@
+Five Layers for Groundwater:
+Transmissivity given by productivity (see 2011 table) - 2012 BGS dataset
+Storage - 2012 BGS dataset
+Saturated thickness given by storage (need to find out how Meunier actually did) as storage = porosivity * Saturated thickness - 2012 BGS dataset
+Recharge rates - new Map BGS 2020 
+Groundwater depth - 2012 BGS dataset
+
+to go further on Egypt:
+See also 2018 doc - there is a 2017 study maybe not available that 
+helped the 2018 study to have access to groundwater level and 
+saturated thickness - would be interesting to use to compute.
+
+Also be cautious: 
+There is in this 2017 reference possibility to look into water quality - look at what they say on the subject - to be read.
+I contacted the 2018 researcher from the NWRC to have access to the records.
+Otherwise: QGIS a un outil de géoréférencement qui permet de prendre une image (scan d'une carte) et de lui assigner des coordonnées géographiques réelles. 
+(Georeferencer, puis cliquer sur des points de contrôle dont on connait les coordonnées (ex : coins du Delta, villes)).
