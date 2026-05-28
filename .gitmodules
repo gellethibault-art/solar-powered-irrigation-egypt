@@ -1,0 +1,3 @@
+[submodule "external/CLOVER"]
+	path = external/CLOVER
+	url = https://github.com/CLOVER-energy/CLOVER.git
